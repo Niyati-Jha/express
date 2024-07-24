@@ -80,7 +80,7 @@ const userSchema = new Schema(
     _id: this._id,
     
   },
-  procees.env.REFRESH_TOKEN,
+  process.env.REFRESH_TOKEN,
   {
     expiresIn: process.env.REFRESH_TOKEN_EXPIRY
   }
